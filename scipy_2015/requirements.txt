@@ -1,0 +1,7 @@
+ipython
+pyzmq
+jinja2
+tornado
+jsonschema
+matplotlib
+holoviews
