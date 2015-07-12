@@ -110,7 +110,7 @@ class SchellingAgent(Agent):
 
     def step(self, model):
         similar = 0
-        for neighbor in model.grid.neighbor_iter(self.pos[X], self.pos[Y]):
+        for neighbor in model.grid.neighbor_iter(self.pos):
             if neighbor.type == self.type:
                 similar += 1
 
